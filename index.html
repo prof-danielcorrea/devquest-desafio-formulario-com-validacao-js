@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Desafio Formulário com Validação</title>
+  </head>
+  <body>
+    <picture>
+      <source srcset="./images/bg-repeat.jpg" media="(max-width: 700px)" />
+      <source srcset="./images/bg-repeat.jpg" />
+      <img src="./images/bg-repeat.jpg" alt="bg-desktop" class="background" />
+    </picture>
+    <div class="container">
+      <div class="texto">
+        <h1>FICOU COM DÚVIDA?<br />NOS MANDE UMA MENSAGEM!</h1>
+        <br />
+        <p>
+          caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e
+          entraremos em contato em menos de 24h.
+        </p>
+      </div>
+      <form id="formulario">
+        <div>
+          <input
+            class="inputs"
+            type="text"
+            id="nome"
+            name="nome"
+            placeholder=" Nome completo *"
+          />
+          <div class="error-message" id="nomeError"></div>
+        </div>
+        <div>
+          <input
+            class="inputs"
+            type="email"
+            id="email"
+            name="email"
+            placeholder=" Email *"
+          />
+          <div class="error-message" id="emailError"></div>
+        </div>
+        <div>
+          <input
+            class="inputs"
+            type="tel"
+            id="tel"
+            name="tel"
+            placeholder=" Telefone *"
+          />
+          <div class="error-message" id="telError"></div>
+        </div>
+        <div>
+          <textarea
+            class="input-textarea inputs"
+            id="mensagem"
+            name="mensagem"
+            placeholder=" Mensagem *"
+          ></textarea>
+          <div class="error-message" id="mensagemError"></div>
+        </div>
+        <br />
+        <p class="campos-obrigatorios">*campos obrigatórios</p>
+        <br />
+        <button class="btn-enviar" type="button" onclick="validarFormulario()">
+          Enviar
+        </button>
+      </form>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
