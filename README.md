@@ -5,29 +5,29 @@
 <p align="center"><b>Desktop Preview</b> 🖥️ 💻</p>
 
 <p align="center"> 
-  <img src="design/desktop-form-normal.jpg" alt="design desktop" src="" width="100%">
+  <img src="design/desktop-form-normal.jpg" alt="design desktop" width="100%">
 </p>
 
 <p align="center"> 
-  <img src="design/desktop-form-nao-preenchido.jpg.jpg" alt="design desktop" src="" width="100%">
+  <img src="design/desktop-form-nao-preenchido.jpg" alt="design desktop" width="100%">
 </p>
 
 <p align="center"> 
-  <img src="design/desktop-form-validado.jpg" alt="design desktop" src="" width="100%">
+  <img src="design/desktop-form-validado.jpg" alt="design desktop" width="100%">
 </p>
 
 <p align="center"><b>Mobile Design</b> 📲</p>
   
 <p align="center">
-  <img src="design/mobile-form-normal.jpg" alt="design mobile" src="" width="50%">
+  <img src="design/mobile-form-normal.jpg" alt="design mobile" width="50%">
 </p>
 
 <p align="center">
-  <img src="design/mobile-form-nao-preenchido.jpg" alt="design mobile" src="" width="50%">
+  <img src="design/mobile-form-nao-preenchido.jpg" alt="design mobile" width="50%">
 </p>
 
 <p align="center">
-  <img src="design/mobile-form-validado.jpg" alt="design mobile" src="" width="50%">
+  <img src="design/mobile-form-validado.jpg" alt="design mobile" width="50%">
 </p>
 
 <p align="center">
